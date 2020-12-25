@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>C'est ton Quizz mon amour</title>
+</head>
+<body>
+    <h1>The Martin's quiz</h1>
+
+    <div class="container">
+        <div id="quiz" class="quiz"></div>
+
+        <div class='buttons'>
+            <button id="previous"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="transform:rotate(180deg)"><path fill="white" d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg></button>
+            <button id="next"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="white" d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg></button>
+        </div>
+        
+        <button id="submit" class="hidden">Submit the quizz</button>
+
+        <div id="results" class="hidden">
+            <h2 id="resultsCount"></h2>
+            <p id="resultsExplanation"></p>
+            <button id="finale">Clique pour recevoir ton Kdo Martin !</button>
+        </div>
+
+        <div id="grandFinale" class="hidden">
+            <p>☄️ Ton cadeau n'est rien d'autre que ☄️</p>
+            <h2>Une cagnotte de 300Euros pour notre prochain voyage 🌹💝</h2>
+            <p>Merci de toujours rendre tous nos moments si riches et heureux. Merci. 💫</p>
+            <p class="small">( Je sais qu'il y a le COVID, heureusement, cette cagnotte n'a pas de date d'expiration ! 🔥 )</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
