@@ -159,6 +159,7 @@ function setPreviousButton() {
 function setNextButton() {
   if(currentSlide >= slides.length-1) {
     nextButton.style.display = 'none';
+    previousButton.style.display = 'none';
     submitButton.classList.remove('hidden');
   }
   else {
